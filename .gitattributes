@@ -1,0 +1,23 @@
+# 文字檔統一換行格式
+* text=auto
+*.txt text eol=crlf
+*.ini text eol=crlf
+*.xml text eol=crlf
+*.lua text eol=crlf
+*.lub binary
+
+# RO 客戶端與大型封裝檔交由 Git LFS 管理
+*.grf filter=lfs diff=lfs merge=lfs -text
+*.rgz filter=lfs diff=lfs merge=lfs -text
+*.gpf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
